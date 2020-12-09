@@ -1,0 +1,36 @@
+.nav {
+    padding-bottom: 57px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__link {
+        width: 410px;
+        display: flex;
+        justify-content: space-between;
+
+        a.first {
+            text-decoration: none;
+            color: #48555B;
+            font-family: 'Open Sans';
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 16px;
+            text-align: center;
+            transition: .8s;
+
+            &:hover {
+
+                color: #00A4E5;
+
+
+            }
+
+        }
+
+
+    }
+
+}

@@ -1,0 +1,57 @@
+.services {
+    padding-bottom: 114px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        h2.capabilites {
+            color: #48555B;
+            width: 198px;
+            font-family: 'Open Sans';
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 25px;
+
+            &::after {
+                content: '';
+                display: block;
+                // margin: 0 auto;
+                width: 50px;
+                height: 2px;
+                background-color: #00A4E5;
+                margin-top: 10px;
+            }
+
+        }
+    }
+
+    &__more {
+        width: 586px;
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            color: #48555B;
+            width: 405px;
+            font-family: 'Open Sans';
+            font-size: 11px;
+            font-weight: 400;
+            line-height: 19px;
+
+
+        }
+
+        button.btn {
+            color: white;
+            width: 150px;
+            background-color: #00A4E5;
+            font-family: 'Open Sans';
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 18px;
+            text-align: center;
+            border: none;
+        }
+    }
+}

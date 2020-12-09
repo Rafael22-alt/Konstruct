@@ -1,0 +1,23 @@
+
+
+
+@import 'base/variables';
+@import 'base/mixins';
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 941.07px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/nav';
+@import 'blocks/konstruct';
+@import 'blocks/services';
