@@ -1,0 +1,51 @@
+.big {
+    background-image: url(/img/bgs.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    padding-bottom: 35px;
+    padding-top: 120px;
+    padding-bottom: 231px;
+    &__wrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2.build {
+
+        color: #48555B;
+        padding-bottom: 46px;
+
+
+        font-family: 'Open Sans';
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        text-align: center;
+
+
+
+
+    }
+
+    button.ptn {
+        color: white;
+        width: 150px;
+        background-color: #00A4E5;
+        font-family: 'Open Sans';
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 18px;
+        text-align: center;
+        border: none;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    img {
+
+        width: 100%;
+    }
+}

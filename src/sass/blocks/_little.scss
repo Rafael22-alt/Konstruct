@@ -1,0 +1,60 @@
+.little {
+    padding-bottom: 71px;
+    background-color: #171819;
+
+    &__wrapper {
+        padding-top: 30px;
+        align-self: center;
+        // padding-top: 30px;
+        margin: 0 auto;
+        width: 686px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    p.new {
+        color: white;
+        font-family: 'Open Sans';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+
+    }
+
+    &__m {
+        width: 405px;
+        font-size: 0;
+    }
+
+    input {
+        align-items: center;
+        height: 100%;
+        width: 250px;
+        border: none;
+        line-height: 41px;
+        font-size: 22px;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        text-align: center;
+
+    }
+
+    button.signup {
+        color: white;
+        width: 150px;
+        background-color: #00A4E5;
+        font-family: 'Open Sans';
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 22px;
+        text-align: center;
+        border: none;
+        height: 40px;
+        cursor: pointer;
+        text-align: center;
+        padding-top: 8.5px;
+
+
+    }
+}
