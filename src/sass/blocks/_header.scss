@@ -6,7 +6,9 @@
         padding-top: 41px;
         // position: absolute;
         background-image: url(/img/bg.png);
-        background-repeat: round;
+        background-size: contain; 
+        background-repeat: no-repeat;
+        // background-repeat: round;
         width: 100%;
        
     }
